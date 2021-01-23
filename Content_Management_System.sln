@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cms_EntityLayer", "Cms_Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_MapLayer", "CMS_MapLayer\CMS_MapLayer.csproj", "{74269DCD-CFEB-49A8-B99B-FA5BB2FA309C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMS_DataLayer", "CMS_DataLayer\CMS_DataLayer.csproj", "{208A17A3-BC48-45EA-98E1-6CB804831286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{74269DCD-CFEB-49A8-B99B-FA5BB2FA309C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74269DCD-CFEB-49A8-B99B-FA5BB2FA309C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74269DCD-CFEB-49A8-B99B-FA5BB2FA309C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208A17A3-BC48-45EA-98E1-6CB804831286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208A17A3-BC48-45EA-98E1-6CB804831286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208A17A3-BC48-45EA-98E1-6CB804831286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208A17A3-BC48-45EA-98E1-6CB804831286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
