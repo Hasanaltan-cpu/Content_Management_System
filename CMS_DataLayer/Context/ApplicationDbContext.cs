@@ -9,9 +9,10 @@ using System.Text;
 
 namespace CMS_DataLayer.Context
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<AppUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options){}
+
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Page> Pages { get; set; }
